@@ -1,0 +1,3 @@
+GET     /socket/:uid                    controllers.TalkController.socket(uid : String)
+
+GET 	/everylucky/room/:rid/count 			controllers.TalkController.getUserCount(rid : String)
